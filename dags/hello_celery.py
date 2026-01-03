@@ -10,5 +10,5 @@ with DAG(
 ) as dag:
     hello = BashOperator(
         task_id="say_hello",
-        bash_command="echo hello from git-sync",
+        bash_command="echo hello from git-sync v2",
     )
