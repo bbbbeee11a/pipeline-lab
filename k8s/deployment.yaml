@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: flask-demo
-        image: be11a/flask-demo:e94d55137fc93abcb9ef23a4ccca9558988f7ea4
+        image: be11a/flask-demo:ff1ba1ed9a7509a399fbdf4ad0688c075db9e4ab
         ports:
         - containerPort: 5000
 ---
